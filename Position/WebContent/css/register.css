@@ -1,0 +1,152 @@
+﻿*{margin:0;padding:0}
+
+body{
+	    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+	    color: #666;
+	    background: #fff;
+	    font-size:14px;
+}                     
+body,button,input{
+	font-family:"Microsoft YaHei","Hiragino Sans GB";
+}
+a{
+	text-decoration:none;
+}
+	.header{
+	    height:150px;
+	}
+	.header .banner{
+	    width:1210px;
+	    margin:0 auto;
+	}
+.header .logo{
+	    width:300px;
+	    height:100px;
+	    float:left;
+	    margin-top:24px;
+	    background:url(../img/logo.png) no-repeat;
+	}
+.header .logo-title{
+		float: left;
+	height: 75px;line-height: 80px;
+	font-size: 30px;
+	color: #000;
+	border-left: solid 1px #bbb;
+	margin-left: 25px;
+	padding-left: 17px;
+	margin-top: 49px;
+	}
+.header .have-account {
+	font-size: 20px;
+	float: right;
+	margin-top: 100px;
+	color: #999;
+}
+.header .have-account a{
+	color:#333;
+}
+.header .have-account a:hover{
+	color:#0C3;
+	text-decoration:underline;
+}
+.container{
+	width:1210px;
+	margin:0 auto;
+}
+.container .main{
+	margin:50px auto 60px;
+    width:1000px;
+	}
+.container .main .reg-form{
+	    float:left;
+		width:400px;
+	}
+.container .main .input-tip{
+    color:#c5c5c5;
+    height:27px;
+    font-size:12px;
+    padding-top:5px;
+}
+	/*main S*/
+	/*form-item S*/
+.container .main .form-item{
+	    position:relative;
+	    border:solid 1px #ddd;
+	    width:398px;
+	    height:52px;
+	}
+
+.container .main .form-item label{
+	    float:left;
+	    width:90px;
+	    height:52px;
+	    line-height:52px;
+	    padding-left:20px;
+	    font-size:18px;
+	}
+.container .main .form-item .field{
+	    border:0 none;
+	    font-size:16px;
+	    width:190px;
+	    height:19px;
+	    padding:16px 0px 11px 20px;
+	}
+	/*form-item E*/
+
+.container .main .item-email-wrap{
+	    height:86px;
+	    position:relative;
+	    z-index:11;
+	}
+.container .main .item-phone-wrap{
+	    height:86px;
+	    position:relative;
+	    z-index:11;
+	}
+
+.container .main .item-email-wrap .orPhone {
+	    position: absolute;
+	    right: 0;
+	    bottom: 10px;
+	}
+
+.container .main .item-phone-wrap .orEmail {
+	     position: absolute;
+	     right: 0;
+	     bottom: 10px;
+	}
+	/*btn S*/
+.container .main .btn-register{
+	    width:400px;
+	    height:54px;
+	    color:#fff;
+	    background:#e22;
+	    border:0;
+	    font-size:16px;
+	    font-family:"微软雅黑";
+	}
+.container .main .btn-register:hover{
+	    background:#de4848;
+	}
+.container .main .reg-other {
+	    float:left;
+	    margin-left:80px;
+	    height:605px;
+	    padding-left:90px;
+		width:40%;
+	    border-left:1px solid #e6e6e6;
+	}
+.container .main .reg-other img{
+		width:400px;
+		height:570px;
+	}
+#imgAuthCode{
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+	
+
+
+
+	

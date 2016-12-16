@@ -1,0 +1,23 @@
+.init{
+    background:#F5f5f5;
+    font-weight:bold;
+    color:#000;
+}
+
+.wrong{
+    background:#F5F5F5;
+    font-weight:bold;
+    border:1px #F00 solid;
+    color:#000;
+    width:190px;
+    height:19px;
+    padding:16px 0px 11px 20px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+}
+
+.right{
+    background:#F5F5F5;
+    font-weight:bold;
+    border:1px #0f0 solid;
+    color:#000;
+}
